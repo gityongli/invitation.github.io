@@ -36,6 +36,9 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }
+.swiper-pagination-bullet{
+    background:#fff!important;
+}
 /*音乐部分开始*/
 #music {
     width: 60px;

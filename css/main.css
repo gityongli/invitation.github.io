@@ -142,7 +142,7 @@ body {
 .swiper-slide.one .bottom p{
     font-size: 5vw;
     color:#fff;
-    line-height: 80%;
+    line-height:50%;
 }
 
 /*第一屏结束*/
@@ -177,7 +177,7 @@ body {
 }
 .swiper-slide.two .center{
     width:65%;
-    height:35%;
+    height:37%;
     position: absolute;
     top:30%;
     color:#fff;

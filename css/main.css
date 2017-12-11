@@ -1,0 +1,519 @@
+/*Demo styles*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*音乐部分开始*/
+#music {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    z-index: 9;
+}
+.musicbg {
+    width: 60px;
+    height: 60px;
+}
+.musicImg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 44px;
+    height: 44px;
+    animation: music 2s linear infinite;
+}
+@keyframes music {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*音乐结束*/
+/*第一屏开始*/
+/*--------------flowers-start------------------*/
+#flowers{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top:0;
+    z-index: 9;
+    left:-36%;
+}
+#flowers .flower{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+/*--------------flowers-end--------------------*/
+/*--------------runnings--------------------*/
+.runnings{
+    background: url("../img/donghua.gif");
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: absolute;
+}
+/*--------------runnings--------------------*/
+.swiper-slide.one{
+    background: url("../img/backg.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+.swiper-slide.one .top{
+    width:90%;
+    height:20%;
+    position: absolute;
+    top: 2%;
+    left:3%;
+    color:#fff;
+    z-index: 10;
+}
+.swiper-slide.one .top p{
+    font-size:5vw;
+}
+.swiper-slide.one .center{
+    width:60%;
+    height: 40%;
+    position:absolute;
+    top:25%;
+}
+
+.invite1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:10%;
+    left:0;
+}
+.invite2{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 42%;
+    left: 21%;
+}
+.swiper-slide.one .bottom{
+    width: 60%;
+    height:18%;
+    position: absolute;
+    top: 80%;
+
+}
+.swiper-slide.one .bottom p{
+    font-size: 5vw;
+    color:#fff;
+    line-height: 80%;
+}
+
+/*第一屏结束*/
+/*第二屏开始*/
+/*--------------flowers-start------------------*/
+#flowers1{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+#flowers1 .flower1{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left:14%;
+}
+/*--------------flowers-start------------------*/
+.swiper-slide.two{
+    background: url("../img/back1.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+.swiper-slide.two .top{
+    width: 60%;
+    height:10%;
+    position: absolute;
+    top:2%;
+    color:#fff;
+    z-index: 16;
+}
+.swiper-slide.two .center{
+    width:60%;
+    height:40%;
+    position: absolute;
+    top:30%;
+
+    color:#fff;
+    z-index: 16;
+}
+.swiper-slide.two .center .border{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+}
+.swiper-slide.two .bottom{
+    width:70%;
+    height:15%;
+    position: absolute;
+    top:85%;
+    color: #23bcff;
+    font-size: 5vw;
+}
+/*第二屏结束*/
+/*第三屏开始*/
+/*--------------flowers-start------------------*/
+#flowers2{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+#flowers2 .flower2{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left:14%;
+}
+/*--------------flowers-start------------------*/
+.swiper-slide.three{
+    background: url("../img/back1.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+.swiper-slide.three .top{
+    width: 60%;
+    height: 10%;
+    position: absolute;
+    top:2%;
+    left:32%;
+    color:#fff;
+    font-size:5vw;
+    z-index:22;
+}
+.swiper-slide.three .top p{
+    position: absolute;
+    top: -8%;
+    left: 15%;
+}
+.swiper-slide.three .center{
+    width: 60%;
+    height:40%;
+    position: absolute;
+    top:30%;
+    color:#fff;
+    font-size:5vw;
+    z-index: 100;
+}
+.swiper-slide.three .center .border{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+}
+.swiper-slide.three .bottom{
+    width:70%;
+    height:15%;
+    position: absolute;
+    top:85%;
+    color: #23bcff;
+    font-size: 5vw;
+}
+/*第三屏结束*/
+/*第四屏开始*/
+/*--------------flowers-start------------------*/
+#flowers3{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+#flowers3 .flower3{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left:14%;
+}
+.swiper-slide.four .top{
+    width: 60%;
+    height:10%;
+    position: absolute;
+    top:2%;
+    color:#fff;
+    z-index: 16;
+}
+.swiper-slide.four .center{
+    width: 70%;
+    height:50%;
+    position: absolute;
+    top:30%;
+    color:#fff;
+    font-size:5vw;
+    z-index: 100;
+}
+
+.swiper-slide.four .center .leader1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top:0;
+    font-size: 5vw;
+    color:#fff;
+    border-color:rgba(255,255,255,0.6);
+    border-width:2px;
+    border-style: solid;
+}
+.swiper-slide.four .center .leader1 img{
+    width: 50%;
+    float:left;
+    height: 100%;
+    border-radius: 100%;
+}
+.swiper-slide.four .center .leader2{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top:35%;
+    font-size: 5vw;
+    color:#fff;
+    border-color:rgba(255,255,255,0.6);
+    border-width:2px;
+    border-style: solid;
+}
+.swiper-slide.four .center .leader2 img{
+    width: 50%;
+    height: 100%;
+    float:left;
+    border-radius: 100%;
+}
+.swiper-slide.four .center .leader3{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top:70%;
+    font-size: 5vw;
+    color:#fff;
+    border-color:rgba(255,255,255,0.6);
+    border-width:2px;
+    border-style: solid;
+}
+.swiper-slide.four .center .leader3 img{
+    width: 50%;
+    height: 100%;
+    float:left;
+    border-radius: 100%;
+}
+.swiper-slide.four .bottom{
+    width:70%;
+    height:15%;
+    position: absolute;
+    top:85%;
+    color: #23bcff;
+    font-size: 5vw;
+}
+/*--------------flowers-start------------------*/
+.swiper-slide.four{
+    background: url("../img/back1.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+/*第四屏结束*/
+/*第五屏开始*/
+/*--------------flowers-start------------------*/
+#flowers4{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+#flowers4 .flower4{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left:14%;
+}
+/*--------------flowers-start------------------*/
+
+.swiper-slide.five{
+    background: url("../img/back1.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+.swiper-slide.five .top{
+    width: 60%;
+    height:10%;
+    position: absolute;
+    top:2%;
+    color:#fff;
+    z-index: 16;
+}
+.swiper-slide.five .center{
+    width: 70%;
+    height:50%;
+    position: absolute;
+    top:30%;
+    color:#fff;
+    font-size:5vw;
+    z-index: 100;
+}
+.swiper-slide.five .center div{
+    width: 70%;
+    height:10%;
+}
+.swiper-slide.five .center .name{
+    position: absolute;
+    top:10%;
+    left: 14%;
+    border:1px solid #ccc;
+    font-size: 5vw;
+    color:#fff;
+    background:#fff;
+    background: rgba(255,255,255,0.7);
+}
+.swiper-slide.five .center .email{
+    position: absolute;
+    top:25%;
+    left: 14%;
+    border:1px solid #ccc;
+    font-size: 5vw;
+    color:#fff;
+    background:#fff;
+    background: rgba(255,255,255,0.7);
+}
+.swiper-slide.five .center .phone{
+    position: absolute;
+    top:40%;
+    left: 14%;
+    border:1px solid #ccc;
+    font-size: 5vw;
+    color:#fff;
+    background:#fff;
+    background: rgba(255,255,255,0.7);
+}
+.swiper-slide.five .center .submit{
+    position: absolute;
+    top:55%;
+    left: 14%;
+    border:1px solid #ccc;
+    font-size: 5vw;
+    color:#fff;
+    background:#fff;
+    background: rgba(16, 160, 255, 0.7);
+}
+.swiper-slide.five .center div p{
+    line-height: 10%;
+}
+.swiper-slide.five .bottom{
+    width:70%;
+    height:15%;
+    position: absolute;
+    top:85%;
+    color: #23bcff;
+    font-size: 5vw;
+}
+/*第五屏结束*/
+/*第六屏开始*/
+/*--------------flowers-start------------------*/
+#flowers5{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+#flowers5 .flower5{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left:14%;
+}
+/*--------------flowers-start------------------*/
+.swiper-slide.six{
+    background: url("../img/back1.jpg");
+    background-size:100% 100%;
+    position: relative;
+}
+.swiper-slide.six .top{
+    width: 70%;
+    height: 10%;
+    position: absolute;
+    top: 2%;
+    color:#fff;
+    font-size: 5vw;
+    z-index:22;
+}
+.swiper-slide.six .center{
+    width: 70%;
+    height:20%;
+    position: absolute;
+    top:35%;
+    color:#fff;
+    font-size: 5vw;
+    z-index:22;
+    line-height: 50%;
+}
+.swiper-slide.six .center .hr{
+    background: #fff;
+}
+.swiper-slide.six .center .p1{
+    font-size: 10vw;
+}
+.swiper-slide.six .bottom{
+    width:70%;
+    height:30%;
+    position: absolute;
+    top:65%;
+    color: #fff;
+    font-size: 5vw;
+}
+.swiper-slide.six .bottom .p1{
+    line-height: 20%;
+}
+.swiper-slide.six .bottom .p2{
+    line-height: 20%;
+}
+.swiper-slide.six .bottom .p3,
+.swiper-slide.six .bottom .p4,
+.swiper-slide.six .bottom .p5{
+    line-height: 120%;
+    font-size:4vw;
+}
+/*第六屏开始*/

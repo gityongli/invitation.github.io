@@ -186,7 +186,7 @@ body {
 }
 .swiper-slide.two .center .border{
     width: 100%;
-    height: 100%;
+    height: 110%;
     position: absolute;
     left:0;
 }
@@ -297,7 +297,7 @@ body {
     height: 30%;
     position: absolute;
     top:0;
-    font-size: 5vw;
+    font-size: 4vw;
     color:#fff;
     border-color:rgba(255,255,255,0.6);
     border-width:2px;
@@ -314,7 +314,7 @@ body {
     height: 30%;
     position: absolute;
     top:35%;
-    font-size: 5vw;
+    font-size: 4vw;
     color:#fff;
     border-color:rgba(255,255,255,0.6);
     border-width:2px;
@@ -331,7 +331,7 @@ body {
     height: 30%;
     position: absolute;
     top:70%;
-    font-size: 5vw;
+    font-size: 4vw;
     color:#fff;
     border-color:rgba(255,255,255,0.6);
     border-width:2px;
@@ -515,7 +515,8 @@ body {
 }
 .swiper-slide.six .bottom .p3,
 .swiper-slide.six .bottom .p4,
-.swiper-slide.six .bottom .p5{
+.swiper-slide.six .bottom .p5,
+.swiper-slide.six .bottom .p6 {
     line-height: 120%;
     font-size:4vw;
 }

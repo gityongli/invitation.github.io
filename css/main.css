@@ -388,7 +388,7 @@ body {
     z-index: 16;
 }
 .swiper-slide.five .center{
-    width: 70%;
+    width: 90%;
     height:50%;
     position: absolute;
     top:25%;
@@ -397,11 +397,11 @@ body {
     z-index: 100;
 }
 .swiper-slide.five .center #name{
-    width: 70%;
+    width: 60%;
     height: 10%;
     position: absolute;
     top:10%;
-    left: 10%;
+    left: 20%;
     border:1px solid #000;
     font-size: 5vw;
     color: #000;
@@ -409,11 +409,11 @@ body {
     background: rgba(255,255,255,0.8);
 }
 .swiper-slide.five .center #email{
-    width: 70%;
+    width: 60%;
     height: 10%;
     position: absolute;
     top:25%;
-    left: 10%;
+    left: 20%;
     border:1px solid #000;
     font-size: 5vw;
     color: #000;
@@ -421,11 +421,11 @@ body {
     background: rgba(255,255,255,0.8);
 }
 .swiper-slide.five .center #phone{
-    width: 70%;
+    width: 60%;
     height: 10%;
     position: absolute;
     top:40%;
-    left: 10%;
+    left: 20%;
     border:1px solid #000;
     font-size: 5vw;
     color: #000;
@@ -433,11 +433,11 @@ body {
     background: rgba(255,255,255,0.8);
 }
 .swiper-slide.five .center #submit{
-    width: 70%;
+    width: 60%;
     height: 10%;
     position: absolute;
     top:55%;
-    left: 10%;
+    left: 20%;
     border:1px solid #ccc;
     font-size: 5vw;
     color:#fff;
@@ -445,11 +445,11 @@ body {
     background: rgba(16, 160, 255, 0.8);
 }
 .swiper-slide.five .center #reset{
-    width: 70%;
+    width: 60%;
     height: 10%;
     position: absolute;
     top:70%;
-    left: 10%;
+    left: 20%;
     border:1px solid #ccc;
     font-size: 5vw;
     color:#fff;
@@ -467,7 +467,30 @@ body {
     color: #23bcff;
     font-size: 5vw;
 }
-
+label{
+    font-size:4vw;
+    color:#fff;
+    font-family: 黑体;
+    width: 20%;
+    height: 10%;
+    float:left;
+    text-align: right;
+}
+.swiper-slide.five .name label{
+    position: absolute;
+    top: 15%;
+    left:0;
+}
+.swiper-slide.five .email label{
+    position: absolute;
+    top: 30%;
+    left:0;
+}
+.swiper-slide.five .phone label{
+    position: absolute;
+    top: 45%;
+    left:0;
+}
 #name{
     position: absolute;
     top: 0;
@@ -476,10 +499,10 @@ body {
     height:25%;
 }
 .swiper-slide.five span{
-    font-size: 12px;
+    font-size: 3vw;
     color:#fff;
     font-family: 黑体;
-    width: 30%;
+    width: 20%;
     height: 10%;
 }
 #nameSpan{

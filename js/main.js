@@ -52,10 +52,6 @@ music.onclick=function(){
 }
 /*音乐结束*/
 
-
-
-
-
 /*百度地图*/
 //创建和初始化地图函数：
 function initMap(){

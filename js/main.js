@@ -113,8 +113,8 @@ initMap();
 /*表单验证开始*/
 function checkName(){
     var name=document.getElementById("name").value;
-    if(name.length<4){
-        document.getElementById("nameSpan").innerHTML="不能少于四位";
+    if(name.length<2){
+        document.getElementById("nameSpan").innerHTML="不能少于两位";
     }else{
         document.getElementById("nameSpan").innerHTML="正确";
     }

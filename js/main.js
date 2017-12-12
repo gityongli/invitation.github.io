@@ -66,7 +66,7 @@ function initMap(){
 }
 function createMap(){
     map = new BMap.Map("map");
-    map.centerAndZoom(new BMap.Point(116.577672,38.082626),16);
+    map.centerAndZoom(new BMap.Point(116.578085,38.082214),17);
 }
 function setMapEvent(){
     map.enableScrollWheelZoom();
@@ -81,7 +81,7 @@ function addClickHandler(target,window){
 }
 function addMapOverlay(){
     var markers = [
-        {content:"泊头职业学院地图",title:"泊头职业学院",imageOffset: {width:0,height:3},position:{lat:38.081944,lng:116.576486}}
+        {content:"双选会",title:"泊头职业学院",imageOffset: {width:0,height:3},position:{lat:38.081504,lng:116.578426}}
     ];
     for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);

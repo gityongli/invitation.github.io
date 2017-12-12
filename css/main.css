@@ -550,13 +550,15 @@ body {
     font-size: 5vw;
     z-index:22;
 }
-.swiper-slide.serven .center{
-    width: 70%;
-    height:50%;
-    position: absolute;
-    top:30%;
-    left:15%;
-    z-index:14;
+.swiper-slide.serven .center #map{
+    /*width: 70%;*/
+    /*height:50%;*/
+    /*position: absolute;*/
+    /*top:30%;*/
+    /*left:15%;*/
+    /*z-index:14;*/
+    margin: 0 auto;
+    margin-top: 20%;
 }
 .swiper-slide.serven .bottom{
     width:70%;

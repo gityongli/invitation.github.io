@@ -235,12 +235,12 @@ body {
     left: 15%;
 }
 .swiper-slide.three .center{
-    width: 60%;
-    height:40%;
+    width: 70%;
+    height:45%;
     position: absolute;
     top:30%;
     color:#fff;
-    font-size:5vw;
+    font-size:4vw;
     z-index: 100;
 }
 .swiper-slide.three .center .border{
@@ -396,11 +396,9 @@ body {
     font-size:5vw;
     z-index: 100;
 }
-.swiper-slide.five .center div{
+.swiper-slide.five .center #name{
     width: 70%;
-    height:10%;
-}
-.swiper-slide.five .center .name{
+    height: 10%;
     position: absolute;
     top:10%;
     left: 14%;
@@ -410,7 +408,9 @@ body {
     background:#fff;
     background: rgba(255,255,255,0.7);
 }
-.swiper-slide.five .center .email{
+.swiper-slide.five .center #email{
+    width: 70%;
+    height: 10%;
     position: absolute;
     top:25%;
     left: 14%;
@@ -420,7 +420,9 @@ body {
     background:#fff;
     background: rgba(255,255,255,0.7);
 }
-.swiper-slide.five .center .phone{
+.swiper-slide.five .center #phone{
+    width: 70%;
+    height: 10%;
     position: absolute;
     top:40%;
     left: 14%;
@@ -430,7 +432,9 @@ body {
     background:#fff;
     background: rgba(255,255,255,0.7);
 }
-.swiper-slide.five .center .submit{
+.swiper-slide.five .center #submit{
+    width: 70%;
+    height: 10%;
     position: absolute;
     top:55%;
     left: 14%;
@@ -451,6 +455,15 @@ body {
     color: #23bcff;
     font-size: 5vw;
 }
+
+#name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:25%;
+}
+
 /*第五屏结束*/
 /*第六屏开始*/
 /*--------------flowers-start------------------*/
@@ -514,8 +527,7 @@ body {
 }
 .swiper-slide.six .bottom .p3,
 .swiper-slide.six .bottom .p4,
-.swiper-slide.six .bottom .p5,
-.swiper-slide.six .bottom .p6 {
+.swiper-slide.six .bottom .p5{
     line-height: 120%;
     font-size:4vw;
 }

@@ -132,27 +132,32 @@
           <p class="p1 ani" swiper-animate-effect=" fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s">联系方式</p>
         </div>
         <div class="center">
-          <div class="name">
-            <p><input type="text" name="name" value="姓名" id="name" class="name ani"
-                      swiper-animate-effect=" fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2s"></p>
-
-          </div>
-          <div class="email">
-            <p><input type="email" name="email" value="邮箱" id="email" class="email ani"
-                      swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s"></p>
-          </div>
-          <div class="phone">
-            <p><input type="email" name="phone" value="电话" id="phone" class="phoneani ani"
-                      swiper-animate-effect=" fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="3s"></p>
-          </div>
-          <div class="submit">
-            <p><input type="submit" name="submit" value="提交" id="submit" class="submit ani"
-                      swiper-animate-effect=" fadeInDown" swiper-animate-duration="2.5s" swiper-animate-delay="3.5s"></p>
-          </div>
-          <div class="reset">
-            <p><input type="reset" name="reset" value="重置" id="reset" class="reset ani"
-                      swiper-animate-effect=" fadeInDown" swiper-animate-duration="3s" swiper-animate-delay="4s"></p>
-          </div>
+          <form action="#" method="post">
+            <div class="name">
+              <p><input type="text" name="name" value="" id="name" class="name ani"
+                        swiper-animate-effect=" fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2s" onkeyup="checkName()">
+                <span id="nameSpan"></span>
+              </p>
+            </div>
+            <div class="email">
+              <p><input type="email" name="email" value="" id="email" class="email ani"
+                        swiper-animate-effect=" fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s" onkeyup="checkEmail()">
+                <span id="emailSpan"></span>
+              </p>
+            </div>
+            <div class="phone">
+              <p><input type="text" name="phone" value="" id="phone" class="phone ani"
+                        swiper-animate-effect=" fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="3s" onkeyup="checkPhone()">
+                <span id="phoneSpan"></span>
+              </p>
+            </div>
+            <div class="submit">
+              <p><input type="submit" name="submit" value="提交" id="submit" class="submit ani"
+                        swiper-animate-effect=" fadeInDown" swiper-animate-duration="2.5s" swiper-animate-delay="3.5s" onclick="return checkAll()">
+                <input type="reset" name="reset" value="重置" id="reset" class="reset ani"
+                       swiper-animate-effect=" fadeInDown" swiper-animate-duration="3s" swiper-animate-delay="4s"></p>
+            </div>
+          </form>
         </div>
         <div class="bottom">
           <p class="bottom_p1 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="5.5s">

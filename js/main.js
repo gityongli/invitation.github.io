@@ -108,3 +108,43 @@ function addMapControl(){
 }
 var map;
 initMap();
+/*百度地图结束*/
+
+/*表单验证开始*/
+function checkName(){
+    var name=document.getElementById("name").value;
+    if(name.length<4){
+        document.getElementById("nameSpan").innerHTML="不能少于四位";
+    }else{
+        document.getElementById("nameSpan").innerHTML="正确";
+    }
+}
+function checkPhone(){
+    var phone=document.getElementById("phone").value;
+    var a=/^1\d{10}$/;
+    if(!a.test(phone)){
+        document.getElementById("phoneSpan").innerHTML="不符合规范";
+    }else{
+        document.getElementById("phoneSpan").innerHTML="正确"
+    }
+}
+function checkEmail(){
+    var email=document.getElementById("email").value;
+    var a=/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+    if(!a.test(email)){
+        document.getElementById("emailSpan").innerHTML="不符合规范"
+    }else{
+        document.getElementById("emailSpan").innerHTML="正确"
+    }
+}
+function checkAll(){
+    var name=document.getElementById("name").value;
+    var phone=document.getElementById("phone").value;
+    if(name==""||phone==""){
+        alert("用户名和手机号必填")
+    }else{
+        alert("提交成功");
+        return false; //页面不跳转、
+    }
+}
+/*表单验证结束*/

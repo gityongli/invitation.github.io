@@ -54,7 +54,7 @@ music.onclick=function(){
 
 /*百度地图*/
 //创建和初始化地图函数：
-function initMap(){
+/*function initMap(){
     createMap();//创建地图
     setMapEvent();//设置地图事件
     addMapControl();//向地图添加控件
@@ -107,7 +107,7 @@ function addMapControl(){
     map.addControl(overviewControl);
 }
 var map;
-initMap();
+initMap();*/
 /*百度地图结束*/
 
 /*表单验证开始*/

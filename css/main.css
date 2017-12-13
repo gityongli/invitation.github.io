@@ -149,17 +149,17 @@ body {
 /*第二屏开始*/
 /*--------------flowers-start------------------*/
 #flowers1{
-    width: 100%;
+    width: 70%;
     height: 30%;
-    position: fixed;
-    top:0;
-    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #flowers1 .flower1{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    left:14%;
+    left:0;
 }
 /*--------------flowers-start------------------*/
 .swiper-slide.two{
@@ -196,17 +196,17 @@ body {
 /*第三屏开始*/
 /*--------------flowers-start------------------*/
 #flowers2{
-    width: 100%;
+    width: 70%;
     height: 30%;
-    position: fixed;
-    top:0;
-    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #flowers2 .flower2{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    left:14%;
+    left:0;
 }
 /*--------------flowers-start------------------*/
 .swiper-slide.three{
@@ -256,17 +256,17 @@ body {
 /*第四屏开始*/
 /*--------------flowers-start------------------*/
 #flowers3{
-    width: 100%;
+    width: 70%;
     height: 30%;
-    position: fixed;
-    top:0;
-    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #flowers3 .flower3{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    left:14%;
+    left:0;
 }
 .swiper-slide.four .top{
     width: 60%;
@@ -355,17 +355,17 @@ body {
 /*第五屏开始*/
 /*--------------flowers-start------------------*/
 #flowers4{
-    width: 100%;
+    width: 70%;
     height: 30%;
-    position: fixed;
-    top:0;
-    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #flowers4 .flower4{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    left:14%;
+    left:0;
 }
 /*--------------flowers-start------------------*/
 
@@ -519,17 +519,17 @@ label{
 /*第六屏开始*/
 /*--------------flowers-start------------------*/
 #flowers5{
-    width: 100%;
+    width: 70%;
     height: 30%;
-    position: fixed;
-    top:0;
-    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #flowers5 .flower5{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    left:14%;
+    left:0;
 }
 /*--------------flowers-start------------------*/
 .swiper-slide.six{
@@ -586,17 +586,17 @@ label{
 /*第七屏开始*/
 /*--------------flowers-start------------------*/
 #flowers6{
-    width: 100%;
+    width: 70%;
     height: 30%;
-    position: fixed;
-    top:0;
-    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #flowers6 .flower6{
     width: 100%;
     overflow: hidden;
     position: absolute;
-    left:14%;
+    left:0;
 }
 /*--------------flowers-start------------------*/
 .swiper-slide.serven{

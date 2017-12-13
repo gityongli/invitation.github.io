@@ -586,7 +586,6 @@ label{
 /*第七屏开始*/
 /*--------------flowers-start------------------*/
 
-/*
 #flowers6{
     width: 70%;
     height: 30%;
@@ -600,7 +599,7 @@ label{
     position: absolute;
     left:0;
 }
-!*--------------flowers-start------------------*!
+/*--------------flowers-start------------------*/
 .swiper-slide.serven{
     background: url("../img/back1.jpg");
     background-size:100% 100%;
@@ -629,7 +628,6 @@ label{
     color: #23bcff;
     font-size: 5vw;
 }
-*/
 
 /*第七屏结束*/
 

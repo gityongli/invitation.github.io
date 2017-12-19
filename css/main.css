@@ -614,9 +614,21 @@ label{
 }
 .swiper-slide.serven .center #map{
     position: absolute;
-    top:30%;
+    top:20%;
     left:15%;
     z-index:14;
+}
+.swiper-slide.serven .center .qr{
+    position: absolute;
+    top:52%;
+    left:30%;
+}
+.swiper-slide.serven .center .qrp{
+    position: absolute;
+    top:75%;
+    left:37%;
+    font-size: 5vw;
+    color:#fff;
 }
 .swiper-slide.serven .bottom{
     width:70%;

@@ -77,7 +77,7 @@ function addClickHandler(target,window){
 }
 function addMapOverlay(){
     var markers = [
-        {content:"微场景",title:"泊头职业学院",imageOffset: {width:0,height:3},position:{lat:38.081632,lng:116.576522}}
+        {content:"微场景",title:"我泊头职业学院",imageOffset: {width:0,height:3},position:{lat:38.081745,lng:116.576163}}
     ];
     for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
@@ -101,9 +101,9 @@ function addMapControl(){
     var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
     scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
     map.addControl(scaleControl);
-    var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+    var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:0});
     map.addControl(navControl);
-    var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+    var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:false});
     map.addControl(overviewControl);
 }
 var map;

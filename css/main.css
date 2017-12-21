@@ -184,6 +184,9 @@ body {
     z-index: 16;
     font-size: 4vw;
 }
+.swiper-slide.two .center .center_p2{
+    line-height:170%;
+}
 .swiper-slide.two .bottom{
     width:70%;
     height:15%;

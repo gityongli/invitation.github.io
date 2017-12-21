@@ -234,9 +234,9 @@ body {
 }
 .swiper-slide.three .center{
     width: 70%;
-    height:45%;
+    height:50%;
     position: absolute;
-    top:30%;
+    top:25%;
     color:#fff;
     font-size:4vw;
     z-index: 100;

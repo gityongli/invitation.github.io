@@ -177,15 +177,15 @@ body {
 }
 .swiper-slide.two .center{
     width:65%;
-    height:50%;
+    height:60%;
     position: absolute;
-    top:30%;
+    top:25%;
     color:#fff;
     z-index: 16;
     font-size: 4vw;
 }
 .swiper-slide.two .center .center_p2{
-    line-height:170%;
+    line-height:180%;
 }
 .swiper-slide.two .bottom{
     width:70%;
